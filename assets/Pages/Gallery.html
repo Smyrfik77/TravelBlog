@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery.min.css">
+    <link rel="stylesheet" href="../css/gallery.css">
+</head>
+<body>
+        <!-- ХЕДЕР -->
+        <header>
+            <div class="container_header">
+              <div class="logo">
+                <a href="../Index.html"><img src="../img/logoDev.svg" alt="творчекое объединение" style="height: 40px; width: 150px;"></a>
+              </div>
+              <nav class="menu">
+                <ul>
+                    <li><a href="../Pages/Journal.html">Личный дневник</a></li>
+                    <li><a href="../Pages/Events.html">События</a></li>
+                    <li><a href="../Pages/Gallery.html" style="color: #ffd700; border-bottom: 2px solid #ffd700;">Фотоальбом</a></li>
+                    <li><a href="../Pages/Biography.html">Биография</a></li>
+                </ul>
+              </nav> 
+            </div>
+          </header>
+        
+          
+        <!-- СОДЕРЖИМОЕ -->
+        <main>
+            <h1 class="title">Фотоальбом</h1>
+            <section class="gallery">
+                <a href="../img/gallery/1.jpg"><img src="../img/gallery/1.jpg" alt=""></a>
+                <a href="../img/gallery/2.jpg"><img src="../img/gallery/2.jpg" alt=""></a>
+                <a href="../img/gallery/3.jpg"><img src="../img/gallery/3.jpg" alt=""></a>
+                <a href="../img/gallery/4.jpg"><img src="../img/gallery/4.jpg" alt=""></a>
+                <a href="../img/gallery/5.jpg"><img src="../img/gallery/5.jpg" alt=""></a>
+            </section>
+        </main>  
+
+        <!-- ФУТЕР -->
+        <footer>
+          <div class="container_footer">
+            <div class="logo">
+              <img src="../img/logoDev.svg" alt="творческое объединение" style="height: 40px; width: 150px;">
+              <span>Творческое объединение</span>
+            </div>
+            <div class="social-icons">
+              <a href="#" ><img src="../img/icon/free-icon-telegram-2111646.png"/></a> <!-- Телеграм -->
+              <a href="#" ><img src="../img/icon/free-icon-vkontakte-4494517.png"/></a> <!-- ВКонтакте -->
+              <a href="#" ><img src="../img/icon/free-icon-youtube-4494485.png"/></a> <!-- YouTube -->
+            </div>
+          </div>
+        </footer>
+  
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js"></script>
+       <script>
+            lightGallery(document.querySelector('.gallery'));
+       </script>
+</body>
+</html>

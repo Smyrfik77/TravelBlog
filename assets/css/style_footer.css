@@ -1,0 +1,38 @@
+@media screen and (min-width: 1200px) {
+    footer {
+      height: auto;
+      min-height: 102px;
+      background-size: 1200px auto;
+      background-position: 50% 0;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    footer, .container_footer {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+}
+
+.container_footer{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+    justify-content: space-between;
+    z-index: 10000;
+}
+
+.social-icons {
+    width: auto;   
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons img{
+  width: 35px;
+  height: 35px;
+}
